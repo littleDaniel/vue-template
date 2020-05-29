@@ -1,6 +1,6 @@
 {
-  "name": "{{projectName}}",
-  "version": "0.1.1",
+  "name": "jdh",
+  "version": "{{ projectVersion }}",
   "private": true,
   "scripts": {
     "build": "vue-cli-service build --mode build",
