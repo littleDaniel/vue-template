@@ -27,7 +27,7 @@
           v-if="table.firstColumn.type==='index'"
         >
           <template slot-scope="scope">
-             <span> \{%raw%}{{ isShowPagination?((table.currentPage - 1 ) * table.pageSize + scope.$index + 1):scope.$index + 1}}{%endraw%}</span>
+             <span>\{%raw%}{{ isShowPagination?((table.currentPage - 1 ) * table.pageSize + scope.$index + 1):scope.$index + 1}}{%endraw%}</span>
           </template>
         </el-table-column>
         <el-table-column
