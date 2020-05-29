@@ -34,7 +34,7 @@
         </el-dropdown-menu>
       </el-dropdown>
       <div class="link-guide right-menu-item">
-        <div class="name">{{userName?userName:'admin'}}</div>
+        <div class="name">{{userName}}</div>
         <div class="line"></div>
         <div class="ent-name t-oneline-overflow-hidden" @click="openSelectEnt">
           {{currentEnt.entName}}
