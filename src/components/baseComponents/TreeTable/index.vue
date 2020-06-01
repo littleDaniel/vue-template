@@ -37,10 +37,10 @@
             ></i>
           </button>
           <span v-else-if="index===0" class="ms-tree-space"></span>
-          <span v-if="!column.filters">{{scope.row[column.dataIndex]}}</span>
+          <span v-if="!column.filters">\{%raw%}{{scope.row[column.dataIndex]}}{%endraw%}</span>
           <span
             v-if="column.filters&&column.filters.param"
-          >{{scope.row[column.dataIndex] |constantKey2Value(column.filters.param)}}</span>
+          >\{%raw%}{{scope.row[column.dataIndex] |constantKey2Value(column.filters.param)}}{%endraw%}</span>
         </template>
       </el-table-column>
       <!-- <el-table-column label="操作" v-if="treeType === 'isEdit'" width="260">
