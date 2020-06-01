@@ -55,7 +55,7 @@
         v-on="$listeners"
       >
         <template slot-scope="scope">
-          <div v-if="!item.filters" :style="{color:txtChangeColor(scope)}">{{scope.row[item.prop]}}</div>
+          <div v-if="!item.filters" :style="{color:txtChangeColor(scope)}">\{{scope.row[item.prop]}}</div>
           <div v-if="item.filters" :style="{color:txtChangeColor(scope)}">
             <span
               v-if="item.filters.param"
