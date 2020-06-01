@@ -30,4 +30,12 @@ export function setLocalStorage (item, value) {
 export function getLocalStorage (item) {
   localStorage.getItem(item)
 }
+// item:存储名称；value:存储值
+export function setToken (item, value) {
+  localStorage.setItem(item, value)
+}
+
+export function getToken (item) {
+  localStorage.getItem(item)
+}
 
