@@ -2,7 +2,7 @@ import axios from 'axios'
 import qs from 'qs'
 import store from '@/store'
 import router from '../router'
-import { getToken } from '.commom'
+import { getToken } from './commom'
 import { Message, MessageBox } from 'element-ui'
 import { showFullScreenLoading, tryHideFullScreenLoading } from './loading'
 

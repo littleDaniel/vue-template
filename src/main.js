@@ -8,7 +8,7 @@ import { ajaxRequest } from './common/api/apiPath/index'
 import './components/index.js' // 全局基础组件注入
 import './assets/css/index.scss' // 全局样式
 import './assets/css/iconfont/iconfont.css' // 字体图标样式
-import './assets/css/fonts/fonts.css' // 文字字体
+// import './assets/css/fonts/fonts.css' // 文字字体
 import * as filters from './common/filters' // 全局过滤
 import GlobalConstant from './common/constants.js' // 静态字典
 import './directive/index' // 自定义指令注入

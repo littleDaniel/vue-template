@@ -2,7 +2,7 @@ import router, { resetRouter } from './router'
 import store from './store'
 import NProgress from 'nprogress' // 进度条
 import 'nprogress/nprogress.css' // progress bar style
-import { getCookie } from '@/commoncommom'
+import { getCookie } from '@/common'
 // 进度条设置
 NProgress.configure({ showSpinner: false })
 // 重定向白名单
