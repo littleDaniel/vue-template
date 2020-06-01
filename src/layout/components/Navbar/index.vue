@@ -10,7 +10,7 @@
       <div class="name" :style="{marginLeft:terminalType==='mgt'?'60px':''}">
         <div class="logo">
           <img src="@/assets/img/newLogo.png" />
-          <span>XXXXX平台</span>
+          <span>{{projectChineseName}}</span>
         </div>
       </div>
     </div>
